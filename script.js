@@ -1,16 +1,18 @@
 //atividade 1
-let number = prompt("digite um numero")
+function atividade1(){
+let number = prompt("digite um numero");
 
     function verificarpar(number){
     if (0 == number % 2){
         console.log("é par");
     } else {
-        console.log("é impar")
+        console.log("é impar");
     }
-    }
-verificarpar(number)
-
+}
+ verificarpar(number);
+}
 //Atividade 2
+function atividade2(){
 let Pnumero = parseInt(prompt("Me fale um numero"));
 let Snumero = parseInt(prompt("Me fale outro numero"));
 
@@ -28,5 +30,5 @@ function calculos(){
      let divisao = (Pnumero/Snumero) 
     console.log("a Divisão deles é: " +divisao)}
 }
-
 calculos()
+}
