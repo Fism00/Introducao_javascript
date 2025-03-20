@@ -36,8 +36,20 @@ calculos(Pnumero,Snumero)
 
 //Atividade 3
 function atividade3(){
-    for (let i = 10; i >= 1; i++ ){
-        console
+    let i = 10
+    while (i >= 1){
+       console.log(i);
+       i--;
+    }
+}
+
+//Atividade 4
+function atividade4(){
+    let palavra = prompt('Me fale uma palavra:');
+    function inverter(letras){
+        
+        
     }
 
+inverter(palavra)
 }
