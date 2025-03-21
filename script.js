@@ -47,8 +47,11 @@ function atividade3(){
 function atividade4(){
     let palavra = prompt('Me fale uma palavra:');
     function inverter(letras){
-        
-        
+        cortado = letras.split('');
+        arvalap = cortado.reverse();
+        descortado = arvalap.join('');
+
+        console.log(descortado)
     }
 
 inverter(palavra)
