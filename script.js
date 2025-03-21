@@ -108,3 +108,31 @@ function atividade8(){
     }
     mediador(numero1,numero2,numero3)
 }
+
+//atividade 9
+function atividade9(){
+    console.log('numeros multiplos de 3, de uma contagem até 20!')
+    let e = 0;
+    let v = 0;
+    let s = 0;
+    let Multiplos = [];
+    let nMultiplos = [];
+    for (let a = 1; a <= 20; a++){
+        if (a % 3 == 0){
+            Multiplos[e] = a
+            e++;
+        } else {
+            nMultiplos[v] = a
+            v++;
+        }
+        
+    };
+    console.log('numeros multiplos de 3:')
+    for (let s = 0; s < Multiplos.length; s++){
+        console.log(Multiplos[s]);
+    }
+    console.log('numeros que não são multiplos de 3:')
+    for (let s = 0; s < nMultiplos.length; s++){
+        console.log(nMultiplos[s]);
+    }
+}
