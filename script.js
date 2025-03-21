@@ -81,3 +81,13 @@ function atividade6(){
     };
     carro.falaPropriedade(carro);
 }
+
+//atividade 7
+function atividade7(){
+    let snome = prompt('qual é seu nome?');
+    const smensagem = ('Olá!');
+    function mensagemPersonalizada(nome,mensagem){
+        console.log(mensagem+ ' ' +nome);
+    }
+    mensagemPersonalizada(snome,smensagem);
+}
