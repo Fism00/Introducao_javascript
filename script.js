@@ -98,5 +98,13 @@ function atividade7(){
 
 //Atividade 8
 function atividade8(){
-
+    let numero1 = parseFloat(prompt('Fale sua primeira nota:'));
+    let numero2 = parseFloat(prompt('Fale sua segunda nota:'));
+    let numero3 = parseFloat(prompt('Fale sua terceira nota:'));
+    function mediador(num1,num2,num3){
+        soma = num1+num2+num3;
+        media = soma/3;
+        console.log('Sua media é: ' +media);
+    }
+    mediador(numero1,numero2,numero3)
 }
