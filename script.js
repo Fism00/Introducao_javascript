@@ -56,3 +56,13 @@ function atividade4(){
 
 inverter(palavra)
 }
+
+//atividade 5
+function atividade5(){
+    let sPalavra = prompt('Me fale uma palavra:'); 
+    function contarCaracteres(palavrinha){
+        separado = palavrinha.length;
+        console.log('essa palavra tem: ' +separado+ ' letras')
+    }
+    contarCaracteres(sPalavra)
+}
