@@ -66,3 +66,18 @@ function atividade5(){
     }
     contarCaracteres(sPalavra)
 }
+
+//atividade 6
+function atividade6(){
+    let carro = {
+        marca: 'honda',
+        modelo: 'civic',
+        ano: 1997,
+        falaPropriedade: function(){
+            console.log('A marca do carro é: ' +this.marca);
+            console.log('O modelo do carro é: ' +this.modelo);
+            console.log('O ano do carro é: ' +this.ano);
+        }
+    };
+    carro.falaPropriedade(carro);
+}
