@@ -85,9 +85,18 @@ function atividade6(){
 //atividade 7
 function atividade7(){
     let snome = prompt('qual é seu nome?');
-    const smensagem = ('Olá!');
+    let smensagem = prompt('qual é sua mensagem?');
+    if (smensagem == 0){
+        smensagem = ('Olá!');   
+    }
+    
     function mensagemPersonalizada(nome,mensagem){
         console.log(mensagem+ ' ' +nome);
     }
     mensagemPersonalizada(snome,smensagem);
+}
+
+//Atividade 8
+function atividade8(){
+
 }
