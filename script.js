@@ -136,3 +136,24 @@ function atividade9(){
         console.log(nMultiplos[s]);
     }
 }
+
+//atividade 10
+function atividade10(){
+    let palindromo = prompt('Me fale uma palavra:');
+    function verificarPalidromo(letras){
+        invertida = letras.split('').reverse().join('');
+        console.log('a palavra normal: ' +letras);
+        console.log('a palavra invertida: ' +invertida);
+        if (letras == invertida){
+            console.log('é um palindromo :D');
+        } else {
+            console.log('não é palindromo :C');
+        };
+        
+    }
+
+verificarPalidromo(palindromo)
+}
+
+//atividade 11
+    
