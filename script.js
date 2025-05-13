@@ -156,4 +156,19 @@ verificarPalidromo(palindromo)
 }
 
 //atividade 11
-    
+
+function atividade11(){
+    let posouneg = prompt('me fale um numero:');
+    function verificarSinal(number1){
+        if (number1 == 0){
+            console.log('Seu numero é zero ele meio que não tem sinal')
+        } else{
+        if(number1 >= 0){
+            console.log('Seu numero é positivo');
+        } else {
+            console.log('seu numero é negativo');
+        };
+        };
+    }
+    verificarSinal(posouneg);
+}
